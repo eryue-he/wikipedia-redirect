@@ -1,0 +1,17 @@
+{
+    "name": "Wiki Vector Skin Redirect",
+    "description": "wikipedia redirect to old vector skin w/o need of account",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "js": [
+          "Scripts/Main.js"
+        ],
+        "run_at": "document_start",
+        "matches": [
+          "*://*.wikipedia.org/*"
+        ]
+      }
+    ]
+  }
